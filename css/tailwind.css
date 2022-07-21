@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@font-face {
+	font-family: "CascadiaCode";
+	src: url("/fonts/CascadiaCode.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-200 pt-14 px-quarter;
+}
+
+@layer components {
+	.btn-primary {
+		@apply bg-blue-600 
+        text-white 
+        px-4 
+        py-2 
+        rounded;
+	}
+}
