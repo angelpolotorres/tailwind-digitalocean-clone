@@ -2,6 +2,9 @@
 module.exports = {
 	content: ["./*.html"],
 	theme: {
+		container: {
+			padding: "1.5rem",
+		},
 		extend: {
 			spacing: {
 				quarter: "25%",
@@ -12,6 +15,7 @@ module.exports = {
 			},
 			colors: {
 				"do-blue-dark": "#080c2d",
+				"do-blue-medium-dark": "#1d274c",
 				"do-blue-medium": "rgb(20, 86, 255)",
 				"do-blue-light": "rgb(0, 105, 255)",
 			},
