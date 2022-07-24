@@ -7,3 +7,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.btn-blue {
+		@apply rounded-lg border bg-do-blue-light px-5 py-3 font-semibold text-white hover:bg-do-blue-medium;
+	}
+	.card {
+		@apply rounded-lg bg-white px-6 shadow-md;
+	}
+}
