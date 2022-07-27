@@ -3,7 +3,10 @@ module.exports = {
 	content: ["./*.html"],
 	theme: {
 		container: {
-			padding: "6.5rem",
+			padding: {
+				DEFAULT: "1.4rem",
+				"2xl": "7rem",
+			},
 		},
 		extend: {
 			spacing: {
