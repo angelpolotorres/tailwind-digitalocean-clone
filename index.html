@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Digital Ocean - The developer cloud</title>
 		<link rel="stylesheet" href="./css/tailwind.css" />
+		<script src="./js/main.js" defer></script>
 	</head>
 	<body>
 		<div class="relative">
@@ -80,7 +81,7 @@
 						<div class="flex items-center gap-x-8">
 							<img src="./images/digital-ocean.svg" alt="" />
 
-							<div class="flex items-center">
+							<div id="boton-desplegar" class="flex items-center">
 								<a class="mr-2" href="#">Products</a>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +98,7 @@
 									/>
 								</svg>
 							</div>
-							<div class="flex items-center">
+							<div id="boton-desplegar" class="flex items-center">
 								<a class="mr-2" href="#">Solutions</a>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +116,7 @@
 								</svg>
 							</div>
 							<a href="#">Marketplace</a>
-							<div class="flex items-center">
+							<div id="boton-desplegar" class="flex items-center">
 								<a class="mr-2" href="#">Community</a>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +145,8 @@
 
 				<!-- Menu despleglable-->
 				<div
-					class="container relative z-10 mx-auto hidden bg-white px-28 py-10"
+					id="menu-desplegable-desktop"
+					class="container relative z-10 mx-auto hidden bg-gray-50 px-28 py-10 shadow-md"
 				>
 					<div class="text-sm font-medium uppercase text-do-blue-medium">
 						OUR PRODUCTS
