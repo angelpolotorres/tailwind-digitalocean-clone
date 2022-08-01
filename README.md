@@ -12,7 +12,7 @@ Install the project dependencies with:
 npm install
 ```
 
-And start the Vite development servir with
+And start the Vite development server with
 
 ```
 npm run dev
