@@ -2,8 +2,7 @@
 
 This project consist of replicate the Digital Ocean Home with Vite and Tailwind css
 
-![image](https://github.com/angelpolotorres/tailwind-with-vite
-/images/project-cover.jpg)
+![image](https://github.com/angelpolotorres/tailwind-with-vite/blob/main/images/project-cover.jpg)
 
 ## How to start
 
